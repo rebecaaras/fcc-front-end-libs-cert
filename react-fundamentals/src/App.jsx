@@ -1,16 +1,13 @@
 import './App.css'
-import Capivara, {Jumentinho} from './components/animals'
-import MyCat from './components/cat'
+import { Card } from './components/profile-card'
 import { Navbar } from './components/navbar'
 
 function App() {
   return (
     <>
       <Navbar/>
-      <MyCat/>
-      <Capivara/>
-      <Jumentinho/>
-      <Jumentinho/>
+      <Card name = "Carlos" title="software engineer" bio="principal software engineer at Paypal"/>
+      <Card name = "Carlos" title="software engineer" bio="principal software engineer at Paypal"/>
     </>
   )
 }
