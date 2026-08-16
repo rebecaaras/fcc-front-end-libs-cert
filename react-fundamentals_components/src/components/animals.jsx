@@ -1,12 +1,10 @@
 export default function Capivara(){
-    return (
+   return (
         <>
             <h2>Mrs. Roundy</h2>
-            <img 
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR56JKYxr7hV4qWdgw1cv4e0nA1VafgftmNqr9NxvE-gw&s=10"
-            />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR56JKYxr7hV4qWdgw1cv4e0nA1VafgftmNqr9NxvE-gw&s=10"/>
         </>
-    )
+   )
 }
 export function Jumentinho(){
     return (
